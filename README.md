@@ -2,6 +2,7 @@
 A Movie Ticketing System using Python (Tkinter, Beautifulsoup4, Requests, Pillow, etc.)
 
 Note:
+
 (1)Loginscreen.py is the starting tkinter window
 
 (2)Make sure u unzip the assets.zip before running the python program
