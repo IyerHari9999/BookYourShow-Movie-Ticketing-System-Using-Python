@@ -21,7 +21,7 @@ if __name__!='__main__':
         text = MIMEText(body)
         print(body)
 
-        fromaddr="kishaturyuga12112@gmail.com"     #enter email id to recieve email to
+        fromaddr=""     #enter email id to recieve email to
         toaddr=emailID
         msg['From']=fromaddr
         msg['To']=toaddr
@@ -30,7 +30,7 @@ if __name__!='__main__':
 
         server=smtplib.SMTP('smtp.gmail.com',587)
         server.starttls()
-        server.login(fromaddr,"qpvpdpmrhxirmafu")   #enter app password in place of pass
+        server.login(fromaddr,"")   #enter app password in place of pass
         while True:
             try:
                 server.send_message(msg)
